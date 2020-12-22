@@ -1,0 +1,115 @@
+html
+body {
+    
+}
+
+header {
+    background-image: url(/assets/images/header/main-img.png);
+    width: 1900px;
+    height: 1080px;
+}
+
+.header__top-inner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    border-radius: 35px;
+    width: 280px;
+    height: 70px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+}
+
+.btn--green-bg {
+    background-color: #0aa566;
+}
+
+.menu__list {
+    display: flex;
+    list-style-type: none;
+}
+
+.personal__list {
+    display: flex;
+    list-style-type: none;
+}
+
+.social__list {
+    display: flex;
+    list-style-type: none;
+}
+
+.about {
+    background-color: #12806c;
+    display: flex;
+}
+.about-image {
+ 
+}
+
+.about-drinks__list--item {
+    list-style-image: url(../assets/images/about/About-list-icon.png);
+}
+.products-drinks {
+    display: flex;
+}
+
+.card {
+    width: 480px;
+    height: 720px;
+}
+
+.products-drinks__card--brown {
+    background-color: #652f15;
+    background-image: url(/assets/images/drinks/Drinks-card-brown.png);
+    background-repeat: no-repeat;
+    background-size: 120px 300px;
+}
+
+.products-drinks__card--green {
+    background-color: #1a886d;
+    background-image: url(/assets/images/drinks/Drinks-card-green.png);
+    background-repeat: no-repeat;
+    background-size: 120px 300px;
+}
+
+.products-drinks__card--yellow {
+    background-color: #f6ab3c;
+    background-image: url(/assets/images/drinks/Drinks-card-yellow.png);
+    background-repeat: no-repeat;
+    background-size: 120px 300px;
+}
+
+.products-drinks__card--orange {
+    background-color: #c64619;
+    background-image: url(/assets/images/drinks/Drinks-card-orange.png);
+    background-repeat: no-repeat;
+    background-size: 120px 300px;
+}
+
+.btn-card {
+    border-radius: 30px;
+    width: 200px;
+    height: 60px;
+    color: white;
+}
+
+.products-drinks__btn-card--brown {
+    background-color: #652f15;
+}
+
+.products-drinks__btn-card--green {
+    background-color: #1a886d;
+}
+
+.products-drinks__btn-card--yellow {
+    background-color: #f6ab3c;
+}
+
+.products-drinks__btn-card--orange {
+    background-color: #c64619;
+}
