@@ -23,6 +23,12 @@
 }
 
 @font-face {
+    font-family: "Muli-Italic";
+    src: url(../assets/fonts/Muli-Italic.ttf) format("ttf");
+    font-style: italic;
+}
+
+@font-face {
     font-family: "Poppins-Medium";
     src: url(../assets/fonts/Poppins-Medium.ttf) format("ttf");
     font-weight: normal;

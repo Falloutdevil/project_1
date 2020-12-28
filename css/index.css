@@ -5,27 +5,101 @@ body {
 
 header {
     background-image: url(/assets/images/header/main-img.png);
-    width: 1900px;
+    /* width: 1920px; */
     height: 1080px;
+    background-size: cover;
 }
+
 
 .header__top-inner {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    
+    
+}
+
+.menu {
+    font-family: "Muli-Bold";
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 40px;
+    border: 1px solid red;
+    /* margin-top: 90px; */
+    display: flex;
+    align-items: center;
+}
+
+.menu__item {
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu__link {
+    color: white;
+    text-decoration: none;
+}
+
+.menu__link:hover { 
+    text-decoration: underline;
+}
+
+.logo {
+    border: 1px solid red;
+}
+
+.logo__header {
+    display: flex;
+    /* align-items: center; */
+    
+}
+
+.header__persona-social-conteiner {
+    display: flex;
+}
+
+.personal {
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    /* margin-top: 90px; */
+}
+
+.personal__list-item {
+    padding: 0 47px;
+    display: flex;
+    justify-content: center;+
+    
+}
+
+.social {
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+}
+
+.social__list-item {
+    padding: 0 10px;
 }
 
 .btn {
-    border-radius: 35px;
-    width: 280px;
-    height: 70px;
-    -webkit-border-radius: 35px;
-    -moz-border-radius: 35px;
-    -ms-border-radius: 35px;
-    -o-border-radius: 35px;
+    font-family: "Muli-ExtraBold";
+    font-weight: normal;
+    color: white;
+    border: none;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
 }
 
 .btn--green-bg {
+    border-radius: 35px;
+    width: 280px;
+    height: 70px;
     background-color: #0aa566;
+    margin-top: 105px;
 }
 
 .menu__list {
@@ -43,52 +117,158 @@ header {
     list-style-type: none;
 }
 
-.about {
-    background-color: #12806c;
-    display: flex;
+.text {
+    font-family: "Muli-Regular";
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 35px;
 }
-.about-image {
- 
+.smoothies {
+    display: flex;
+    justify-content: center;
 }
 
-.about-drinks__list--item {
+.smoothies__inner {
+    text-align: center;
+    min-width: 920px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.smoothis__list {
+    list-style-type: none;
+    display: flex;
+
+}
+
+.about {
+    background-color: #12806c;  
+}
+
+.about__wrap {
+    display: flex;
+    
+}
+
+.about-image {
+    display: flex;
+
+}
+
+.about-drinks {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.about-drinks__list {
     list-style-image: url(../assets/images/about/About-list-icon.png);
 }
+
+.about-drinks__item {
+    font-family: "Muli-Regular";
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 22px;
+    color: white;
+}
+
+.about-drinks__item--text {
+    font-family: "Muli-ExtraBold";
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 22px;
+    color: white;
+}
+
+.btn__about {
+    border-radius: 30px;
+    border: 1px solid #f8b231;
+    width: 380px;
+    height: 60px;
+    background-color: #12826c;
+    text-align: left;
+    position: relative;
+}
+.btn__about--text {
+    padding-left: 30px;
+}
+
+.btn__about--text::after {
+    content: "";
+    display: block;
+    background-image: url(/assets/images/about/btn__about--arrow.png);
+    width: 30px;
+    height: 16px;
+    position: absolute;
+    bottom: 20px;
+    left: 300px;
+}
+
 .products-drinks {
     display: flex;
+    flex-direction: row;
 }
 
 .card {
     width: 480px;
     height: 720px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+    
+}
+
+.products-drinks__card--img {
+    width: 120px;
+    height: 300px;
+    padding-top: 50px;
+}
+
+.btn-card {
+    font-size: 21px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    border-radius: 30px;
+    border: 1px solid white;
 }
 
 .products-drinks__card--brown {
     background-color: #652f15;
-    background-image: url(/assets/images/drinks/Drinks-card-brown.png);
-    background-repeat: no-repeat;
-    background-size: 120px 300px;
 }
 
 .products-drinks__card--green {
     background-color: #1a886d;
-    background-image: url(/assets/images/drinks/Drinks-card-green.png);
-    background-repeat: no-repeat;
-    background-size: 120px 300px;
 }
 
 .products-drinks__card--yellow {
     background-color: #f6ab3c;
-    background-image: url(/assets/images/drinks/Drinks-card-yellow.png);
-    background-repeat: no-repeat;
-    background-size: 120px 300px;
 }
 
 .products-drinks__card--orange {
     background-color: #c64619;
-    background-image: url(/assets/images/drinks/Drinks-card-orange.png);
-    background-repeat: no-repeat;
-    background-size: 120px 300px;
+}
+
+.products-drinks__title {
+    font-family: "Muli-Bold";
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 22px;
+    color:white;
+}
+
+.product-drinks__text {
+    margin-top: -20px;
+    font-family: "Muli-Italic";
+    font-style: italic;;
+    font-size: 21px;
+    line-height: 32px;
+    color: white;
 }
 
 .btn-card {
@@ -96,6 +276,7 @@ header {
     width: 200px;
     height: 60px;
     color: white;
+    margin-top: 75px;
 }
 
 .products-drinks__btn-card--brown {
@@ -112,4 +293,91 @@ header {
 
 .products-drinks__btn-card--orange {
     background-color: #c64619;
+}
+
+.title {
+    font-family: "Muli-ExtraBold";
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 40px;
+    color: #f7ae3b;
+}
+
+.story-wrap {
+    display: flex;
+}
+
+.story__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn__story {
+    border-radius: 30px;
+    width: 300px;
+    height: 60px;
+    color: white;
+    font-family: "Muli-Muli-ExtraBold";
+    font-style: normal;;
+    font-size: 21px;
+    line-height: 22px;
+    background-color: #0aa566;
+    border: none
+
+}
+
+.testimonials {
+    background-image: url(/assets/images/testimonials/testimonials-img.png);
+    height: 720px;
+}
+
+.blog__image {
+
+}
+
+.instagram__link {
+
+}
+
+.instagram__text {
+    font-family: "Muli-ExtraBold";
+    font-size: 24px;
+    line-height: 40px;
+    color: #0aa566;
+    font-weight: normal;
+    letter-spacing: -0.02em;
+}
+
+.instagram__foto {
+    display: flex;
+}
+
+.foto {
+    width: 380px;
+    height: 380px;
+}
+
+.footer {
+    background: linear-gradient(to bottom, #f7ae3b 86%, #6d2a20 14%);
+    /* background-color: #f7ae3b; */
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__payment-list {
+    list-style-type: none;
+    display: flex;
+}
+
+.footer__copyright {
+    /* background-color: #6f2919; */
+    text-align: center;
+}
+
+.footer__copy {
+    
 }
