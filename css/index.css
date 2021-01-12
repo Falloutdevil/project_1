@@ -125,10 +125,7 @@ header {
 }
 
 .social__list-item {
-    padding: 0 10px;
-}
-
-.social__link {
+    margin: 0 10px;
     background: white;
     width: 30px;
     height: 30px;
@@ -137,6 +134,10 @@ header {
     border-radius: 50%;
     align-items: center;
     justify-content: center;
+}
+
+.social__link {
+    
 }
 
 .btn {
@@ -224,29 +225,50 @@ header {
 }
 
 .about {
-    background-color: #12806c;  
+    background-color: #12806c; 
 }
 
 .about__wrap {
     display: flex;
     justify-content: center;
+    
 }
 
 .about__image {
     display: flex;
     border: 1px solid red;
     margin-right: 180px;
+    transform: translateY(60px);
+    
 }
 
 .about-drinks {
     display: flex;
     flex-direction: column;
     border: 1px solid red;
-    
+    width: 40%;
+}
+.about-drinks__title {
+    font-family: "Muli-ExtraBold";
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    padding-bottom: 60px;
+}
+
+.about-drinks__title--text {
+    color: #cae941;
+}
+
+.about-drinks__item--text {
+
 }
 
 .about-drinks__list {
     list-style-image: url(../assets/images/about/About-list-icon.png);
+
 }
 
 .about-drinks__item {
@@ -255,6 +277,11 @@ header {
     font-size: 21px;
     line-height: 22px;
     color: white;
+    padding-bottom: 25px;
+    padding-left: 15px;
+}
+.about-drinks__item:last-child {
+    padding-bottom: 0px;
 }
 
 .about-drinks__item--text {
@@ -273,6 +300,8 @@ header {
     background-color: #12826c;
     text-align: left;
     position: relative;
+    margin-top: 55px;
+    margin-left: -25px;
 }
 .btn__about--text {
     padding-left: 30px;
@@ -303,13 +332,6 @@ header {
     justify-content: center;
     align-content: stretch;
     align-items: center;
-    
-}
-
-.products-drinks__card--img {
-    width: 120px;
-    height: 300px;
-    padding-top: 50px;
 }
 
 .btn-card {
@@ -336,12 +358,17 @@ header {
     background-color: #c64619;
 }
 
+.products-drinks__card--img {
+    width: 120px;
+    height: 300px;
+}
 .products-drinks__title {
     font-family: "Muli-Bold";
     font-weight: bold;
     font-size: 24px;
     line-height: 22px;
     color:white;
+    margin-top: 30px;
 }
 
 .product-drinks__text {
@@ -539,7 +566,7 @@ header {
 }
 
 .testimonials__arrows-left {
-    
+    margin: 0 100px 0 0;
 }
 
 .testimonials__arrows-right {
@@ -655,37 +682,63 @@ header {
 .foto {
     width: 380px;
     height: 380px;
+    
 }
 
 .footer {
-    /* background: linear-gradient(to bottom, #f7ae3b 86%, #6d2a20 14%); */
-    /* background-color: #f7ae3b; */
+    
+}
+
+.footer__logo {
+    height: 72px;
+    margin: 70px 0 0 0;
 }
 
 .footer__inner {
     display: flex;
     justify-content: space-around;
-    height: 370px;
+    height: 360px;
     background-color: #f9a83f;
-    align-items: center;
+    padding: 80px 0 90px 0;
+}
+
+.footer_menu {
+   
 }
 
 .footer__info {
     display: flex;
     list-style-type: none;
     flex-direction: column;
-    width: 160px;
-    height: 190px;
 }
 .footer__menu-info {
-    
+    padding-bottom: 10px;
 }
 
 .footer__title {
     color: white;
+    font-family: "Muli-ExtraBold";
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
 }
 
 .footer__info {
+    border: 1px solid red;
+}
+
+.footer__item {
+    font-family: "Muli-Bold";
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 35px;
+    letter-spacing: -0.02em;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: #6d450c;
     
 }
 
@@ -704,14 +757,80 @@ header {
 }
 
 .footer__payment-icons {
-    padding-right: 15px;
+    padding: 15px 15px 0 0;
+    
 }
 
-.footer-sub {
+.footer__title {
+
+}
+
+.footer__sub {
     width: 490px;
     height: 60px;
     border-radius: 30px;
     border: 0;
+    margin-top: 15px;
+    padding-left: 60px;
+    background-image: url(/assets/images/footer/footer__letter.png);
+    background-repeat: no-repeat;
+    background-position: 22px 20px;
+    
+}
+
+.tooter__row {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__subtitle {
+    font-family: "Muli-ExtraBold";
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #6d450c;
+    position: relative;
+    border: 1px solid red;
+    margin-right: 40px;
+    margin-left: 110px;
+}
+
+.footer__subtitle::before {
+    content: "";
+    position: absolute;
+    background-image: url(/assets/images/footer/footer__arrow.png);
+    width: 45px;
+    height: 43px;
+    display: block;
+    right: 115px;
+    top: -10px;
+}
+
+.footer__social {
+    display: flex;
+    border: 1px solid red;
+    align-items: center;
+    
+}
+
+.footer__social-list {
+    list-style-type: none;
+    display: flex;
+    
+}
+
+.footer__social-item {
+
+}
+
+.footer__social-icon {
+    padding-right: 25px;
+}
+
+.footer__social-item:last-child {
+    padding-right: 0px;
 }
 
 .footer__copyright {
