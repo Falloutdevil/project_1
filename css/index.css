@@ -11,8 +11,8 @@ body {
 
 header {
     background-image: url(/assets/images/header/main-img.png);
-    /* width: 1920px; */
-    height: 1080px;
+    width: 100%;
+    height: 100vh;
     background-size: cover;
 }
 
@@ -427,24 +427,8 @@ header {
     border-radius: 30px;
     width: 200px;
     height: 60px;
-    color: white;
     margin-top: 75px;
-}
-
-.products-drinks__btn-card--brown {
-    background-color: #652f15;
-}
-
-.products-drinks__btn-card--green {
-    background-color: #1a886d;
-}
-
-.products-drinks__btn-card--yellow {
-    background-color: #f6ab3c;
-}
-
-.products-drinks__btn-card--orange {
-    background-color: #c64619;
+    background-color: transparent;
 }
 
 .title {
@@ -908,3 +892,6 @@ header {
 
 }
 
+input {
+    
+}
