@@ -274,25 +274,23 @@ header {
     padding-bottom: 60px;
     max-width: 590px;
     margin-top: 100px;
+    /* position: relative; */
+}
+
+.about-drinks__title--text {
+    color: #cae941;
     position: relative;
 }
 
-.about-drinks__title::after {
+.about-drinks__title--text::after {
     content:"";
     background-image: url(/assets/images/about/about-line.png);
     width: 450px;
     height: 13px;
     position: absolute;
-    right: 70px;
-    top: 120px;
-}
-
-.about-drinks__title--text {
-    color: #cae941;
-}
-
-.about-drinks__item--text {
-
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 0;
 }
 
 .about-drinks__list {
@@ -874,11 +872,11 @@ header {
 }
 
 .footer__social-item {
-
+    padding-right: 25px;
 }
 
 .footer__social-icon {
-    padding-right: 25px;
+    
 }
 
 .footer__social-item:last-child {
