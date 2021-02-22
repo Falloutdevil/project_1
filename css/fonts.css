@@ -1,41 +1,41 @@
 @font-face {
-    font-family: "Muli-Bold";
+    font-family: "Muli-Bold", sans-serif;
     src: url(../assets/fonts/Muli-Bold.woff) format("woff");
     font-weight: bold;
 }
 
 @font-face {
-    font-family: "Muli-ExtraBold";
+    font-family: "Muli-ExtraBold", sans-serif;
     src: url(../assets/fonts/Muli-ExtraBold.woff) format("woff");
-    font-weight: normal;
+    font-weight: bold;
 }
 
 @font-face {
-    font-family: "Muli-ExtraBoldItalic";
+    font-family: "Muli-ExtraBoldItalic", sans-serif;
     src: url(../assets/fonts/Muli-ExtraBoldItalic.ttf) format("tff");
     font-style: italic;
 }
 
 @font-face {
-    font-family: "Muli-Regular";
+    font-family: "Muli-Regular", sans-serif;
     src: url(../assets/fonts/Muli-Regular.woff) format("woff");
     font-weight: normal;
 }
 
 @font-face {
-    font-family: "Muli-Italic";
+    font-family: "Muli-Italic", sans-serif;
     src: url(../assets/fonts/Muli-Italic.ttf) format("ttf");
     font-style: italic;
 }
 
 @font-face {
-    font-family: "Poppins-Medium";
+    font-family: "Poppins-Medium", sans-serif;
     src: url(../assets/fonts/Poppins-Medium.ttf) format("ttf");
     font-weight: normal;
 }
 
 @font-face {
-    font-family: "Poppins-SemiBold";
+    font-family: "Poppins-SemiBold", sans-serif;
     src: url(../assets/fonts/Poppins-SemiBold.ttf) format("ttf");
-    font-weight: normal;
+    font-weight: bold;
 }
