@@ -1,0 +1,112 @@
+// main: ./../main.less
+
+.btn {
+    font-family: "Muli-ExtraBold", sans-serif;
+    color: white;
+    border: none;
+}
+
+.btn--green-bg {
+    border-radius: 35px;
+    width: 280px;
+    height: 70px;
+    background-color: #0aa566;
+    margin-top: 80px;
+    position: relative;
+    font-size: 2rem;
+}
+
+.btn--green-bg::after {
+    content: "";
+    background-image: url(/assets/images/header/Arrow.png);
+    width: 30px;
+    height: 16px;
+    position: absolute;
+    right: 40px;
+}
+
+.btn__about {
+    border-radius: @border-radius;
+    border: 1px solid #f8b231;
+    width: 380px;
+    height: 60px;
+    background-color: #12826c;
+    text-align: left;
+    position: relative;
+    margin-top: 55px;
+    margin-bottom: 30px;
+    margin-left: -55px;
+}
+
+.btn__about--text {
+    padding-left: 30px;
+    font-family: "Muli-ExtraBold", sans-serif;
+    font-size: 2.1rem;
+}
+
+.btn__about--text::after {
+    content: "";
+    display: block;
+    background-image: url(./../../assets/images/about/btn__about--arrow.png);
+    width: 30px;
+    height: 16px;
+    position: absolute;
+    bottom: 20px;
+    left: 300px;
+}
+
+.btn-card {
+    font-size: 2.1rem;
+    line-height: 22px;
+    letter-spacing: 0px;
+    border-radius: @border-radius;
+    border: 1px solid white;
+    text-align: left;
+    padding-left: 35px;
+    position: relative;
+}
+
+.btn-card::after {
+    content: "";
+    background-image: url(./../../assets/images/drinks/products__btn-arrow.png);
+    position: absolute;
+    width: 30px;
+    height: 16px;
+    top: 23px;
+    left: 130px;
+}
+
+.btn-card {
+    border-radius: @border-radius;
+    width: 200px;
+    height: 60px;
+    margin-top: 75px;
+    background-color: transparent;
+}
+
+.btn__story {
+    border-radius: @border-radius;
+    width: 300px;
+    height: 60px;
+    color: white;
+    font-family: "Muli-ExtraBold", sans-serif;
+    font-style: normal;
+    font-size: 2.1rem;
+    line-height: 22px;
+    background-color: #0aa566;
+    border: none;
+    margin-top: 50px;
+    text-align: left;
+    padding-left: 30px;
+    position: relative;
+}
+
+.btn__story::after {
+    content: "";
+    background-image: url(./../../assets/images/story/story-arrow.png);
+    width: 30px;
+    height: 16px;
+    position: absolute;
+    top: 25px;
+    left: 230px;
+}

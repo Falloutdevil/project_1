@@ -1,0 +1,39 @@
+// main: ./../main.less
+
+.story__title {
+    margin-bottom: 50px;
+}
+
+.story-wrap {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 160px;
+}
+
+.story__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 525px;
+}
+
+.story__text {
+    width: 515px;
+}
+
+.story__img {
+    position: relative;
+}
+
+.story__img::before {
+    content: "";
+    background-image: url(./../../assets/images/story/story-stamp.png);
+    display: block;
+    width: 290px;
+    height: 216px;
+    position: absolute;
+    right: 460px;
+    top: 20px;
+}

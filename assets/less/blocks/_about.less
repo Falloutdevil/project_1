@@ -1,0 +1,74 @@
+// main: ./../main.less
+
+.about {
+    background-color: #12806c;
+}
+
+.about__wrap {
+    display: flex;
+    justify-content: center;
+
+}
+
+.about__image {
+    display: flex;
+    margin-right: 180px;
+    transform: translateY(60px);
+}
+
+.about-drinks {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-drinks__title {
+    font-family: "Muli-ExtraBold", sans-serif;
+    font-size: 5.5rem;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    padding-bottom: 60px;
+    max-width: 590px;
+    margin-top: 100px;
+}
+
+.about-drinks__title--text {
+    color: #cae941;
+    position: relative;
+}
+
+.about-drinks__title--text::after {
+    content: "";
+    background-image: url(./../../assets/images/about/about-line.png);
+    width: 450px;
+    height: 13px;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 0;
+}
+
+.about-drinks__list {
+    list-style-image: url(./../../assets/images/about/About-list-icon.png);
+}
+
+.about-drinks__item {
+    font-family: "Muli-Regular", sans-serif;
+    font-weight: normal;
+    font-size: 2.1rem;
+    line-height: 22px;
+    color: white;
+    padding-bottom: 25px;
+    padding-left: 15px;
+}
+
+.about-drinks__item:last-child {
+    padding-bottom: 0px;
+}
+
+.about-drinks__item--text {
+    font-family: "Muli-ExtraBold", sans-serif;
+    font-size: 2.5rem;
+    line-height: 22px;
+    color: white;
+}
